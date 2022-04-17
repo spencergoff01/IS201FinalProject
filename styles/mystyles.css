@@ -1,0 +1,74 @@
+/* THESE ARE THE FORMATTING STYLES*/
+
+body
+    {/*background-color: grey;*/
+     font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.common
+    {/*background-color: #CCCCCC;
+     border: solid 2px white;*/
+     position: absolute}
+.header
+    {top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px white;}
+.mainbody
+    {top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 64px;}
+.footer
+    {bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 30px;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    position: fixed;}
+.subheader
+    {float: right;}
+
+
+
+/* THESE ARE THE GENERAL FONT STYLES*/
+
+body 
+    {font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(172, 231, 255);}
+
+li
+    {font-size: 14px;
+    font-style: italic;
+    font-weight: normal;}
+a
+    {color: darkblue;
+    text-decoration: none;}
+
+a:hover {text-decoration: underline; font-size: larger;}
+.resumelistheading 
+    {font-weight: bold;
+    font-style: normal;}
+
+.tableau {border: solid 3px darkblue; background-color: darkblue; color: white;}
+.centered {text-align: center;}
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.italic {font-style: italic;}
+.justify{text-align: justify;}
+.homebackground
+    {background-image: url('images/coolbackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+/*The styles were created just to demonstrate the box models (Borders, Padding, & Margins)*/
+
+.box1 {border-width: 1px;border-style: solid; border-color: blue; 
+       border: 1px solid blue;}
+.box2 {padding: 10px;}
+.box3 {margin: 20px;}
